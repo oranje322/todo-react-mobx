@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500;600;700&family=Neucha&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Neucha', cursive;
+
+
+
+
+
+}
+
+body {
+  background: #E5E5E5;
+
+}
+
+.todo {
+  max-width: 750px;
+  margin: 220px auto;
+  display: flex;
+
+
+  &__sidebar {
+    background: #e8ded5;
+    width: 200px;
+  }
+
+
+
+
+
+  &__tasks {
+    background: #FFFFE0	;
+    width: 550px;
+    padding: 55px;
+    background: url('./assets/img/oHPNYn1wymI.jpg') 0 0/cover no-repeat;
+  }
+}
+
+.field {
+  padding: 10px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  &:focus {
+    border-color: #767676;
+  }
+}
+
+
